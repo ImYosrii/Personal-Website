@@ -1,0 +1,119 @@
+@media (min-width: 800px) {
+    .nav-col {
+        flex: 0 0 auto;
+        width: 160px;
+    }
+}
+
+@media (max-width: 800px) {
+    .top-links {
+        display: block;
+        margin: 3px;
+        font-size: 15px;
+    }
+
+    .Credits {
+        font-size: 13px;
+        max-width: 100%;
+    }
+    .Hey{
+        font-size:50px;
+    }
+    .Intro{
+        top: 40vh;
+        font-size:15px
+    }
+    .ProfilePic{
+        margin-bottom: 10px;
+        margin-left:4rem;
+    }
+    .MyInfo{
+        clear:left;
+        text-align: center;
+    }
+    .AboutBG{
+        min-height: 180vh;
+    }
+    .ContactBG{
+        min-height:70vh;
+    }
+    
+}
+
+@keyframes Typing {
+    0%{
+        visibility: visible;
+        color: rgba(255, 255, 255, 0);
+       
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes Writing {
+    0%{
+        visibility: visible;
+        width:0%;
+    }
+
+    100% {
+        width: 100%;
+        visibility: visible;
+    }
+
+
+}
+
+@keyframes Blink {
+
+    0%{
+        border-color: transparent;
+
+    }
+
+    50% {
+      border-color:white;
+    }
+
+}
+
+@keyframes SocialAnimation {
+    0%{
+        visibility: visible;
+        color: rgba(255, 255, 255, 0);
+    }
+    100% {
+        visibility: visible;
+    }
+
+}
+
+@keyframes ArrowAnimation{
+    0% {
+            visibility:visible;
+            color: rgba(255, 255, 255, 0);
+            transform: translateY(30px)
+        }
+    
+        25% {
+            transform: translateY(-20px);
+            color: rgba(255, 255, 255, 0.475);
+        }
+    
+        50% {
+            transform: translateY(30px);
+            color: rgba(255, 255, 255, 0.751);
+        }
+    
+        75% {
+            transform: translateY(-20px);
+            color: rgb(255, 255, 255);
+        }
+    
+        100% {
+            visibility: visible;
+            transform: translateY(30px);
+            color: rgba(255, 255, 255, 0.107);
+        }
+}

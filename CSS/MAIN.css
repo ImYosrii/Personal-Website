@@ -1,0 +1,322 @@
+/* general adjgusment */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    max-width:100%;
+}
+/* general adjgusment */
+
+/* Scroll smothing */
+html{
+    scroll-behavior: smooth;
+}
+/* Scroll smothing */
+
+/* Background */
+.Background {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../PICS/background.jpg") center/cover no-repeat fixed; 
+}
+/* Background */
+
+/* Navbar*/
+.Nav{
+    text-align: center;
+    position:fixed;
+    transition: all 0.4s linear;
+    width:100%;
+    justify-content:center;
+    z-index:100;
+}
+.Nav:hover{
+    background: rgba(255, 255, 255, 0.299);
+}
+.Top-links{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+    margin: 5px auto;
+    margin-right: 50px;
+    transition: all 0.4s linear;
+    
+}
+.Top-links:hover {
+    color: rgb(141, 211, 255);
+
+}
+
+/* .Credits{
+    margin-top:5px;
+    display: inline-block;
+    color:white;
+    position: fixed;
+    text-align: end;
+
+} */
+
+/* .initials{
+    font-family: 'Dancing Script', cursive;
+    
+} */
+
+/* Navbar*/
+
+
+
+/* Welcoming */
+.Hey{
+    color:white;
+    text-align:center;
+    font-size:80px;
+    position:absolute;
+    top:30vh;
+}
+
+.Animation{
+    visibility: hidden;
+    animation: Typing 4s 1 1.3s;
+    animation-fill-mode: forwards;
+}
+.Intro{
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    top: 45vh;
+}
+
+.writer{
+    position: relative;
+    max-width:215px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid rgb(255, 255, 255);
+    display: inline-block;
+    left:7px;
+    animation: Writing 20s 3s, Blink .75s infinite;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+/* Welcoming */
+
+/* Social Media */
+.Social{
+    position: relative;
+    text-align: center;
+    top:48vh;
+    font-size: 30px;
+    margin-left:15px;
+    
+}
+
+.Social-links{
+    animation: SocialAnimation 3s 1 5.7s;
+    transition: all 0.4s linear;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    display: inline-block;
+    text-decoration: none;
+    margin:30px 20px;
+    color: white;
+}
+
+.Social-links:hover{
+    color: rgb(141, 211, 255);
+    font-size: 35px;    
+}
+/* Social Media */
+
+
+/* Bottom-Arrow*/
+.Bottom-Arrow{
+    position: relative;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    top:68vh;
+    visibility: hidden;
+    animation: ArrowAnimation 5s infinite 7s;
+    animation-fill-mode: both;
+}
+/* Bottom-Arrow */
+
+/* About and skills */
+.AboutBG{
+    height:100vh;
+    background: rgba(3, 34, 55, 255);
+    box-shadow: 0px 15px 20px 15px black;
+}
+.AboutH{
+        color: whitesmoke;
+        position: relative;
+        text-align: center;
+        top: 10vh;
+        font-size: 40px;
+        text-shadow: 3px 3px 3px black;
+}
+.AboutQ{
+    color:white;
+    text-align: center;
+    position: relative;
+    top:20vh;
+    margin-left:5rem;
+}
+.Pic-Text{
+    position: relative;
+    top:22vh;
+    margin-left:50px;
+
+}
+.ProfilePic{
+    border:2px solid rgb(141, 211, 255);
+    border-radius:100%;
+    float: left;
+    margin-right:10px;
+    height:130px;
+}
+.MyInfo{
+    color: white;
+    font-size:17px;
+}
+.SkillsHS{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+.SkillsInfo{
+    color:white;
+    position: relative;
+    top:22vh;
+    font-size: 17px;
+    margin-left:110px;
+    width:70%;
+
+}
+.skillsContainer{
+    position: relative;
+    /* border:3px solid red; */
+    width:40%;
+    height:40vh;
+    left:56.5vw;
+    top:16vh;
+
+}
+.SkillsName{
+    color:white;
+}
+.Bars{
+    width: 100%;
+    background: #ddd;
+    border:4px solid black;
+}
+.Skills{
+    display:block;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right:10px;
+    right:13px;
+    color: white;
+    position: relative;
+    background: rgb(5, 104, 167);
+}
+.HCJ {
+    /* background: green; */
+    width:60%;
+
+}
+.PYTHON{
+    /* background:Red; */
+    width:80%
+}
+.CREATIVITY{
+    /* background:coral; */
+    width:100%;
+    
+}
+
+/* About and skills */
+
+/* Projects */
+.ProjectsBG{
+    height:100vh;
+    background: rgb(1, 25, 40);
+    box-shadow: 0px 15px 20px 15px black;
+}
+.ProjectsH{
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+.CardsCol{
+position: relative;
+top:13vh;
+left:2vw;
+}
+.card-body{
+    transition: all 0.5s linear;
+}
+.card-body:hover{
+    background:rgb(141, 211, 255);
+}
+/* Projects */
+
+/* Contact */
+.ContactBG{
+    height:50vh;
+    background: rgb(1, 18, 35);
+    box-shadow: 0px 5px 10px 3px black;
+}
+.ContactH{
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+.Suggest{
+        color: whitesmoke;
+            position: relative;
+            text-align: center;
+            top: 5vh;
+            font-size: 20px;
+}
+.ContactEM{
+    position: relative;
+    color:white;
+    text-align: center;
+    top:10vh;
+}
+.ContactEMLink{
+    display:block;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 10vh;
+    text-decoration: none;
+    transition:all 0.4s linear;
+    left:0.6vw;
+    
+}
+.ContactEMLink:hover{
+    color:rgb(150, 214, 254);
+}
+.WhatsApp{
+    right:20vw;
+}
+.deletedC{
+    opacity: 0;
+}
+.Copyright{
+    position:relative;
+    color:white;
+    text-align: center;
+    top:15vh;
+}
+/* Contact */
