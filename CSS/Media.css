@@ -6,38 +6,53 @@
 }
 
 @media (max-width: 800px) {
-    .top-links {
-        display: block;
-        margin: 3px;
-        font-size: 15px;
-    }
-
-    .Credits {
-        font-size: 13px;
-        max-width: 100%;
+    .Top-links {
+        margin-left:2rem;
     }
     .Hey{
-        font-size:50px;
+        font-size:2.5rem;
     }
-    .Intro{
-        top: 40vh;
-        font-size:15px
+    .writer{
+        top: -2.7rem;
+        font-size: 0.9rem;
+        max-width:10rem;
+        margin-left:0.8rem;
+    }
+    .AboutQ{
+        top:7rem;
+        right:2.5rem;
     }
     .ProfilePic{
-        margin-bottom: 10px;
-        margin-left:4rem;
+        margin-top:-3.1rem;
+        margin-bottom: 2rem;
+        margin-left:4.3rem;
     }
     .MyInfo{
+        margin-bottom: 3rem;
         clear:left;
-        text-align: center;
+    }
+    .SkillsInfo{
+        margin-left:5rem;
     }
     .AboutBG{
-        min-height: 180vh;
+        min-height: 150vh;
+    }
+    .skillsContainer{
+        top:13.5rem;
+        left:7rem;
+    }
+    .CardsCol{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 2rem;
     }
     .ContactBG{
-        min-height:70vh;
+        min-height:77vh;
     }
-    
+    .SocialMobile {
+        margin-left: 0rem;
+        margin-top:1rem;
+    }
 }
 
 @keyframes Typing {

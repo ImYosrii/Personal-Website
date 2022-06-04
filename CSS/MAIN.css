@@ -13,6 +13,12 @@ html{
 }
 /* Scroll smothing */
 
+/* fixing right white space */
+html,body {
+    overflow-x: hidden;
+}
+/* fixing right white space */
+
 /* Background */
 .Background {
     height: 100vh;
@@ -45,20 +51,6 @@ html{
     color: rgb(141, 211, 255);
 
 }
-
-/* .Credits{
-    margin-top:5px;
-    display: inline-block;
-    color:white;
-    position: fixed;
-    text-align: end;
-
-} */
-
-/* .initials{
-    font-family: 'Dancing Script', cursive;
-    
-} */
 
 /* Navbar*/
 
@@ -309,6 +301,9 @@ left:2vw;
 }
 .WhatsApp{
     right:20vw;
+}
+.SocialMobile{
+    margin-left:8rem;
 }
 .deletedC{
     opacity: 0;
