@@ -300,7 +300,14 @@ left:2vw;
     color:rgb(150, 214, 254);
 }
 .WhatsApp{
-    right:20vw;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 10vh;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    left: 10rem;
 }
 .SocialMobile{
     margin-left:8rem;
