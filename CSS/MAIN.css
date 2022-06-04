@@ -309,6 +309,9 @@ left:2vw;
     transition: all 0.4s linear;
     left: 10rem;
 }
+.WhatsApp:hover{
+    color:rgb(150, 214, 254);
+}
 .SocialMobile{
     margin-left:8rem;
 }
