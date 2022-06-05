@@ -1,11 +1,11 @@
-@media (min-width: 800px) {
+@media screen and (min-width:800px) {
     .nav-col {
         flex: 0 0 auto;
         width: 160px;
     }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width:800px) {
     .Top-links {
         margin-left:2rem;
     }
@@ -57,7 +57,18 @@
         margin-top:1rem;
     }
 }
+@media screen and (max-width:500px){
+        .AboutBG {
+                min-height: 200vh;}
+        .ProfilePic{
+        margin-top:-1.3rem;
+        margin-bottom: 2rem;
+        margin-left:2.8rem;}
+        .SkillsInfo{
+        margin-left:3.5rem;
+    }
 
+    }       
 @keyframes Typing {
     0%{
         visibility: visible;
