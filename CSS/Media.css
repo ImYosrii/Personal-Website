@@ -1,63 +1,76 @@
-
 @media screen and (max-width:800px) {
 
     .Top-links {
-        margin-left:2rem;
+        margin-left: 2rem;
     }
-    .Hey{
-        font-size:2.5rem;
+
+    .Hey {
+        font-size: 2.5rem;
     }
-    .writer{
+
+    .writer {
         top: -2.7rem;
         font-size: 0.9rem;
-        max-width:10rem;
-        margin-left:0.8rem;
+        max-width: 10rem;
+        margin-left: 0.8rem;
     }
-    .AboutQ{
-        top:7rem;
-        right:2.5rem;
+
+    .AboutQ {
+        top: 7rem;
+        right: 2.5rem;
     }
-    .ProfilePic{
-        margin-top:-3.1rem;
+
+    .ProfilePic {
+        margin-top: -3.1rem;
         margin-bottom: 2rem;
-        margin-left:4.3rem;
+        margin-left: 4.3rem;
     }
-    .MyInfo{
+
+    .MyInfo {
         margin-bottom: 3rem;
-        clear:left;
+        clear: left;
     }
-    .SkillsInfo{
-        margin-left:5rem;
+
+    .SkillsInfo {
+        margin-left: 5rem;
     }
-    .AboutBG{
+
+    .AboutBG {
         min-height: 150vh;
     }
-    .skillsContainer{
-        top:13.5rem;
-        left:7rem;
+
+    .skillsContainer {
+        top: 13.5rem;
+        left: 7rem;
     }
-    .CardsCol{
-        display:flex;
+
+    .CardsCol {
+        display: flex;
         justify-content: center;
         margin-bottom: 2rem;
     }
-    .ContactBG{
-        min-height:77vh;
+
+    .ContactBG {
+        min-height: 77vh;
     }
-    .WhatsApp{
-        left:5rem;
+
+    .WhatsApp {
+        left: 5rem;
     }
+
     .SocialMobile {
         margin-left: 0rem;
-        margin-top:1rem;
+        margin-top: 1rem;
     }
-} 
+}
+
 @media screen and (min-width:800px) {
     .nav-col {
         flex: 0 0 auto;
         width: 160px;
     }
 }
+
 @media screen and (max-width:500px) {
     .AboutBG {
         min-height: 200vh;
@@ -66,29 +79,36 @@
     .ProfilePic {
         margin-top: -1.3rem;
         margin-bottom: 2rem;
-        margin-left: 2.8rem;
+        margin-left: 2rem;
+
     }
 
     .SkillsInfo {
         margin-left: 3.5rem;
     }
 
+    .ProjectsBG {
+        min-height: 150vh;
+    }
+
 }
+
 @keyframes Typing {
-    0%{
+    0% {
         visibility: visible;
         color: rgba(255, 255, 255, 0);
-       
+
     }
-    100%{
+
+    100% {
         visibility: visible;
     }
 }
 
 @keyframes Writing {
-    0%{
+    0% {
         visibility: visible;
-        width:0%;
+        width: 0%;
     }
 
     100% {
@@ -101,53 +121,54 @@
 
 @keyframes Blink {
 
-    0%{
+    0% {
         border-color: transparent;
 
     }
 
     50% {
-      border-color:white;
+        border-color: white;
     }
 
 }
 
 @keyframes SocialAnimation {
-    0%{
+    0% {
         visibility: visible;
         color: rgba(255, 255, 255, 0);
     }
+
     100% {
         visibility: visible;
     }
 
 }
 
-@keyframes ArrowAnimation{
+@keyframes ArrowAnimation {
     0% {
-            visibility:visible;
-            color: rgba(255, 255, 255, 0);
-            transform: translateY(30px)
-        }
-    
-        25% {
-            transform: translateY(-20px);
-            color: rgba(255, 255, 255, 0.475);
-        }
-    
-        50% {
-            transform: translateY(30px);
-            color: rgba(255, 255, 255, 0.751);
-        }
-    
-        75% {
-            transform: translateY(-20px);
-            color: rgb(255, 255, 255);
-        }
-    
-        100% {
-            visibility: visible;
-            transform: translateY(30px);
-            color: rgba(255, 255, 255, 0.107);
-        }
+        visibility: visible;
+        color: rgba(255, 255, 255, 0);
+        transform: translateY(30px)
+    }
+
+    25% {
+        transform: translateY(-20px);
+        color: rgba(255, 255, 255, 0.475);
+    }
+
+    50% {
+        transform: translateY(30px);
+        color: rgba(255, 255, 255, 0.751);
+    }
+
+    75% {
+        transform: translateY(-20px);
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        visibility: visible;
+        transform: translateY(30px);
+        color: rgba(255, 255, 255, 0.107);
+    }
 }
